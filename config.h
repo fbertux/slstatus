@@ -65,5 +65,5 @@ static const struct arg args[] = {
     /* function format          argument */
     { keymap, "| %s |", NULL},
     { battery_perc, " %s\% | ",  "BAT1"},
-    { datetime, "%s",           "%F %H:%M" },
+    { datetime, "%s",           "%V %F %H:%M"},
 };
